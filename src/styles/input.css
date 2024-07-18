@@ -1,0 +1,39 @@
+@tailwind base;
+
+@layer base {
+  html {
+    @apply text-white antialiased scroll-smooth;
+  } 
+}
+
+@tailwind components;
+@tailwind utilities;
+
+.margins {
+  @apply md:max-w-[1296px] md:px-6 px-4 mx-auto
+}
+
+.hover-fill-button {
+  background-size: 200% auto;
+  background-image: linear-gradient(to right, #f6ae5500 50%, #ff66c4 50%);
+  transition: background-position .3s ease-in-out, color .3s ease;
+}
+
+.hover-fill-button:hover {
+  color: #000;
+  background-position: -100% center;
+}
+
+#mainHookContainer {
+  background: linear-gradient(to right, #0d0920 20%, #0d09208d 100%), url(/moon.jpg);
+  background-position: -40% 37%;
+}
+
+.text-background-gradient {
+  @apply bg-clip-text text-transparent;
+  background-image: radial-gradient(69.86% 2796.42% at 85% 50%,hsla(0,0%,96%,.75) 0,#fff 100%);
+}
+
+.badge-pink {
+  @apply px-4 py-2 bg-[#121212] w-fit rounded-full border border-ufopink text-ufopink text-opacity-90 font-medium;
+}
