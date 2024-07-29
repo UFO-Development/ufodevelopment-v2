@@ -36,7 +36,7 @@ export const Navbar = () => {
             <a href="#testmonialsContainer" className="hover:text-ufopink font-medium transition-colors">
               <Translate>navbarItemTestimonials</Translate>
             </a>
-            <a href="#" className="py-2 px-8 border-2 border-ufopink text-ufopink font-medium hover-fill-button rounded-full">
+            <a href="#contactContainer" className="py-2 px-8 border-2 border-ufopink text-ufopink font-medium hover-fill-button rounded-full">
               <Translate>navbarItemContact</Translate>
             </a>
           </ul>

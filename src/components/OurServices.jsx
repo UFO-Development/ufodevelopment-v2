@@ -9,7 +9,7 @@ const services = [
 
 export const OurServices = () => {
   return (
-    <div className="py-24" id="ourServicesContainer relative">
+    <div className="py-24 relative" id="ourServicesContainer">
       <h2 className="text-5xl font-bold text-center text-background-gradient">
         <Translate>ourServicesDescriptionTitle</Translate>
       </h2>
