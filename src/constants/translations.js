@@ -41,14 +41,20 @@ export default {
     service3Description: 'Creación de aplicaciones móviles atractivas, funcionales y optimizadas. Trabajaremos con usted, entregandole soluciones personalizadas que generen una experiencia de usuario única y aumenten la visibilidad de su marca.',
 
     contactDescriptionTitle: 'Contacto',
-    contactDescriptionText: '¿Estás listo para llevar tu negocio al siguiente nivel? No solo desarrollamos softwre, creamos experiencias excepcionales para usuarios..',
+    contactDescriptionText: '¿Estás listo para llevar tu negocio al siguiente nivel? No solo desarrollamos software, creamos experiencias excepcionales para usuarios.',
   
     contactNameLabel: 'Nombre',
     contactEmailLabel: 'Correo electrónico',
     contactPhoneLabel: 'Número de teléfono',
+    contactTextareaLabel: 'Mensaje',
     contactPlaceholder: 'Ingresá tu nombre',
     contactPlaceholderEmail: 'Ingresá tu correo electrónico',
     contactPlaceholderPhone: 'Ingresá tu número de teléfono',
+    contactPlaceholderMessage: 'Ingresá tu mensaje',
+    contactButton: 'Enviar',
+    founderAgency: 'ENZO CAZENAVE',
+    niceToMeetYou: 'Un gusto en conocerte!',
+    niceToMeetYouText: 'Gracias por visitarnos. Estamos aquí para ayudarte a transformar tus ideas en realidad. Contáctanos hoy y comencemos a crear algo increíble juntos!'
   },
   en: {
     navbarItemHome: 'Home',
@@ -104,5 +110,10 @@ export default {
     contactPlaceholderEmail: 'Enter your email',
     contactPlaceholderPhone: 'Enter your phone number',
     contactPlaceholderMessage: 'Enter your message',
+    contactButton: 'Send',
+
+    founderAgency: 'ENZO CAZENAVE',
+    niceToMeetYou: 'Nice to meet you!',
+    niceToMeetYouText: 'Thanks for visiting us. We are here to help you transform your ideas into reality. Contact us today and let\'s get started on something amazing together!'	
   }
 }

@@ -14,13 +14,13 @@ export const Testimonials = () => {
       <h2 className="text-5xl font-bold text-center text-background-gradient">
         <Translate>testimonialsDescriptionTitle</Translate>
       </h2>
-      <p className="text-center pt-3">
+      <p className="text-center pt-3 text-balance max-w-xl mx-auto">
         <Translate>testimonialsDescriptionText</Translate>
       </p>
       
       <div className="margins grid grid-cols-2 w-full pt-24 gap-8">
         {testimonials.map(testimonial => ( 
-          <Testimonial testimonial={testimonial} />
+          <Testimonial key={testimonial.name} testimonial={testimonial} />
         ))}
       </div>
     </div>

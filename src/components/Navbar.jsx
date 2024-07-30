@@ -1,3 +1,4 @@
+import { FixedLanguageSelector } from './FixedLanguageSelector'
 import { Translate } from './Translate'
 import { useRef, useEffect } from 'react'
 
@@ -41,6 +42,9 @@ export const Navbar = () => {
             </a>
           </ul>
         </nav>
+
+      <FixedLanguageSelector />
+
       </div>
     </header>
   )

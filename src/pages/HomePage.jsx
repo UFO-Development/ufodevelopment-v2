@@ -1,4 +1,4 @@
-import { MainHookSection, ServiceDescription, Testimonials, OurServices, Contact } from '../components'
+import { MainHookSection, ServiceDescription, Testimonials, OurServices, Contact, Footer } from '../components'
 
 export const HomePage = () => {
   return (
@@ -8,6 +8,7 @@ export const HomePage = () => {
       <ServiceDescription />
       <Testimonials />
       <Contact />
+      <Footer />
     </section>
   )
 }

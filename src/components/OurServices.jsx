@@ -9,15 +9,15 @@ const services = [
 
 export const OurServices = () => {
   return (
-    <div className="py-24 relative" id="ourServicesContainer">
+    <div className="py-24" id="ourServicesContainer">
       <h2 className="text-5xl font-bold text-center text-background-gradient">
         <Translate>ourServicesDescriptionTitle</Translate>
       </h2>
-      <p className="text-center pt-3">
+      <p className="text-center pt-3 text-balance max-w-xl mx-auto">
         <Translate>ourServicesDescriptionText</Translate>
       </p>
       <div className="margins grid grid-cols-2 w-full pt-24 gap-8">
-        {services.map(service => <Service service={service} />)}
+        {services.map(service => <Service key={service.name} service={service} />)}
       </div>
     </div>
   )

@@ -13,11 +13,11 @@ export const FixedLanguageSelector = () => {
   }
 
   return (
-    <div className="p-1 fixed flex flex-col rounded top-1/2 -translate-y-1/2 left-4 gap-1 bg-[#1f1f1f]">
-      <button onClick={handleSpanish} className={ `p-1 hover:bg-[#121212] rounded transition-colors ${currentLanguage === 'es' && 'bg-[#121212]' }` }>
+    <div className="p-1 flex rounded gap-1 w-fit">
+      <button onClick={handleSpanish} className={ `p-1 hover:bg-ufopink rounded transition-colors ${currentLanguage === 'es' && 'bg-ufopink' }` }>
         <img src="es.svg" className="w-6 h-full" alt='Spanish flag' />
       </button>
-      <button onClick={handleEnglish} className={ `p-1 hover:bg-[#121212] rounded transition-colors ${currentLanguage === 'en' && 'bg-[#121212]' }` }>
+      <button onClick={handleEnglish} className={ `p-1 hover:bg-ufopink rounded transition-colors ${currentLanguage === 'en' && 'bg-ufopink' }` }>
         <img src="us.svg" className="w-6 h-full" alt='Spanish flag' />
       </button>
     </div>

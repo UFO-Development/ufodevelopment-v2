@@ -32,7 +32,7 @@ export const ServiceDescription = () => {
       <h2 className="text-5xl font-bold text-center text-background-gradient">
         <Translate>serviceDescriptionTitle</Translate>
       </h2>
-      <p className="text-center pt-3">
+      <p className="text-center pt-3 text-balance max-w-xl mx-auto">
         <Translate>serviceDescriptionText</Translate>
       </p>
 

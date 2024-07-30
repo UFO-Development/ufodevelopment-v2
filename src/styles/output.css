@@ -568,6 +568,10 @@ html {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .-bottom-10 {
   bottom: -2.5rem;
 }
@@ -604,16 +608,12 @@ html {
   left: 50%;
 }
 
-.left-4 {
-  left: 1rem;
-}
-
 .top-0 {
   top: 0px;
 }
 
-.top-1\/2 {
-  top: 50%;
+.top-32 {
+  top: 8rem;
 }
 
 .top-4 {
@@ -630,6 +630,11 @@ html {
 
 .col-span-2 {
   grid-column: span 2 / span 2;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .flex {
@@ -650,8 +655,21 @@ html {
   height: 1.5rem;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .h-32 {
   height: 8rem;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .h-full {
@@ -662,20 +680,8 @@ html {
   height: 100vh;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
-.h-14 {
-  height: 3.5rem;
-}
-
-.h-12 {
-  height: 3rem;
-}
-
-.h-64 {
-  height: 16rem;
+.min-h-40 {
+  min-height: 10rem;
 }
 
 .w-6 {
@@ -701,11 +707,6 @@ html {
 
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-translate-y-1\/2 {
-  --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -749,6 +750,10 @@ html {
   gap: 3rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-24 {
   gap: 6rem;
 }
@@ -773,12 +778,12 @@ html {
   gap: 2rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
-}
-
 .overflow-hidden {
   overflow: hidden;
+}
+
+.text-balance {
+  text-wrap: balance;
 }
 
 .text-pretty {
@@ -822,19 +827,9 @@ html {
   --tw-border-opacity: 0.4;
 }
 
-.bg-\[\#121212\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(18 18 18 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#14102C\] {
   --tw-bg-opacity: 1;
   background-color: rgb(20 16 44 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#1f1f1f\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 31 31 / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
@@ -892,6 +887,11 @@ html {
   padding: 1.5rem;
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -912,19 +912,23 @@ html {
   padding-bottom: 6rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+.ps-4 {
+  padding-inline-start: 1rem;
 }
 
 .pt-24 {
@@ -933,14 +937,6 @@ html {
 
 .pt-3 {
   padding-top: 0.75rem;
-}
-
-.ps-2 {
-  padding-inline-start: 0.5rem;
-}
-
-.ps-3 {
-  padding-inline-start: 0.75rem;
 }
 
 .text-left {
@@ -1001,6 +997,10 @@ html {
 .text-ufopink {
   --tw-text-opacity: 1;
   color: rgb(255 102 196 / var(--tw-text-opacity));
+}
+
+.text-opacity-90 {
+  --tw-text-opacity: 0.9;
 }
 
 .opacity-15 {
@@ -1123,9 +1123,9 @@ html {
   --tw-border-opacity: 0.4;
 }
 
-.hover\:bg-\[\#121212\]:hover {
+.hover\:bg-ufopink:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(18 18 18 / var(--tw-bg-opacity));
+  background-color: rgb(255 102 196 / var(--tw-bg-opacity));
 }
 
 .hover\:text-ufopink:hover {
@@ -1140,10 +1140,6 @@ html {
 .hover\:shadow-ufopink\/30:hover {
   --tw-shadow-color: rgb(255 102 196 / 0.3);
   --tw-shadow: var(--tw-shadow-colored);
-}
-
-.focus\:border-none:focus {
-  border-style: none;
 }
 
 .focus\:outline-none:focus {
