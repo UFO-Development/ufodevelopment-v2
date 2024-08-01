@@ -58,9 +58,10 @@ export default {
     niceToMeetYouText: 'Gracias por visitarnos. Estamos aquí para ayudarte a transformar tus ideas en realidad. Contáctanos hoy y comencemos a crear algo increíble juntos!',
   
     callToActionText: 'Agendá una llamada con nosotros para comenzar a trabajar en tu próximo nuevo proyecto.',
-
     footerSocialMedia: 'Redes sociales',
     footerNavigation: 'Navegación',
+    footerInformation: 'Información',
+    footerCopyright: 'Todos los derechos reservados'
   },
   en: {
     navbarItemHome: 'Home',
@@ -126,5 +127,7 @@ export default {
     callToActionText: 'Book a meeting with us to start working in your next new project.',
     footerSocialMedia: 'Social Networks',
     footerNavigation: 'Navigation',
+    footerInformation: 'Information',
+    footerCopyright: 'All rights reserved'
   }
 }

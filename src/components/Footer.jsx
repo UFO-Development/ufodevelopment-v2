@@ -9,9 +9,9 @@ export const Footer = () => {
           <p className="max-w-lg text-balance text-white text-opacity-70">Empresa de desarrollo de software que se dedica a crear soluciones innovadoras para mejorar la experiencia de los usuarios.</p>
         </div>
         <div className="flex gap-16">
-          <div>
+          <div className="flex flex-col gap-2">
             <h4 className="text-ufopink text-opacity-90 font-medium">
-              Información
+              <Translate>footerInformation</Translate>
             </h4>
             <p className="text-sm text-white text-opacity-70">Quilmes, Buenos Aires, Argentina.</p>
           </div>
@@ -19,19 +19,19 @@ export const Footer = () => {
             <h4 className="text-ufopink text-opacity-90 font-medium">
               <Translate>footerNavigation</Translate>
             </h4>
-            <a className="text-sm text-white text-opacity-70">
+            <a href="#mainHookContainer" className="text-sm text-white text-opacity-70 hover:text-ufopink transition-colors">
               <Translate>navbarItemHome</Translate>
             </a>
-            <a className="text-sm text-white text-opacity-70">
+            <a href="#ourServicesContainer" className="text-sm text-white text-opacity-70 hover:text-ufopink transition-colors">
               <Translate>navbarItemServices</Translate>
             </a>
-            <a className="text-sm text-white text-opacity-70">
+            <a href="#serviceDescriptionContainer" className="text-sm text-white text-opacity-70 hover:text-ufopink transition-colors">
               <Translate>navbarItemWork</Translate>
             </a>
-            <a className="text-sm text-white text-opacity-70">
+            <a href="#testmonialsContainer" className="text-sm text-white text-opacity-70 hover:text-ufopink transition-colors">
               <Translate>navbarItemTestimonials</Translate>
             </a>
-            <a className="text-sm text-white text-opacity-70">
+            <a href="#contactContainer" className="text-sm text-white text-opacity-70 hover:text-ufopink transition-colors">
               <Translate>navbarItemContact</Translate>
             </a>
           </div>
@@ -39,9 +39,15 @@ export const Footer = () => {
             <h4 className="text-ufopink text-opacity-90 font-medium">
               <Translate>footerSocialMedia</Translate>
             </h4>
-            <a className="text-sm text-white text-opacity-70">Instagram</a>
-            <a className="text-sm text-white text-opacity-70">Linkedin</a>
-            <a className="text-sm text-white text-opacity-70">Tiktok</a>
+            <a href="https://www.instagram.com/ufo.development/" target="__blank" className="text-sm text-white text-opacity-70 hover:text-ufopink transition-colors">
+              Instagram
+            </a>
+            <a href="https://www.linkedin.com/company/ufo-development/" target="__blank" className="text-sm text-white text-opacity-70 hover:text-ufopink transition-colors">
+              Linkedin
+            </a>
+            <a href="https://www.tiktok.com/@ufo.development" target="__blank" className="text-sm text-white text-opacity-70 hover:text-ufopink transition-colors">
+              Tiktok
+            </a>
           </div>
         </div>
       </div>
