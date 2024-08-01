@@ -26,6 +26,7 @@ export default {
     serviceDescriptionStage6Title: '06 Mantenimiento',
     serviceDescriptionStage6Text: 'Una vez en funcionamiento, el software puede requerir mantenimiento periódico para corregir errores, realizar actualizaciones o implementar nuevas funcionalidades. Esta etapa es continua durante todo el ciclo de vida del software.',
     
+    testimonialsBadge: 'Casos de éxito',
     testimonialsDescriptionTitle: 'Personas reales, <span class="text-ufopink">resultados</span> reales',
     testimonialsDescriptionText: 'Hemos trabajado con muchos clientes y hemos recibido muchos comentarios positivos.',
     testimonialDescriptionFrancoBenito: 'Quería darles las gracias por el espectacular trabajo que realizaron. Tomaron un proyecto donde los detalles y el tiempo eran cruciales y lograron superar las expecativas. Cumpliendo con todos los objetivos con celeridad y eficacia.',
@@ -54,7 +55,12 @@ export default {
     contactButton: 'Enviar',
     founderAgency: 'ENZO CAZENAVE',
     niceToMeetYou: 'Un gusto en conocerte!',
-    niceToMeetYouText: 'Gracias por visitarnos. Estamos aquí para ayudarte a transformar tus ideas en realidad. Contáctanos hoy y comencemos a crear algo increíble juntos!'
+    niceToMeetYouText: 'Gracias por visitarnos. Estamos aquí para ayudarte a transformar tus ideas en realidad. Contáctanos hoy y comencemos a crear algo increíble juntos!',
+  
+    callToActionText: 'Agendá una llamada con nosotros para comenzar a trabajar en tu próximo nuevo proyecto.',
+
+    footerSocialMedia: 'Redes sociales',
+    footerNavigation: 'Navegación',
   },
   en: {
     navbarItemHome: 'Home',
@@ -83,6 +89,7 @@ export default {
     serviceDescriptionStage6Title: '06 Maintenance',
     serviceDescriptionStage6Text: 'Once in operation, the software may require periodic maintenance to fix errors, perform updates, or implement new functionality. This stage is continuous throughout the software life cycle.',
   
+    testimonialsBadge: 'Successful cases',
     testimonialsDescriptionTitle: 'Real people, real <span class="text-ufopink">results</span>',
     testimonialsDescriptionText: 'We have worked with many clients, and we have received many positive feedback.',
     testimonialDescriptionFrancoBenito: "I wanted to thank you for the spectacular work you did. You took on a project where details and time were crucial and managed to exceed expectations, meeting all objectives with speed and efficiency.",
@@ -114,6 +121,10 @@ export default {
 
     founderAgency: 'ENZO CAZENAVE',
     niceToMeetYou: 'Nice to meet you!',
-    niceToMeetYouText: 'Thanks for visiting us. We are here to help you transform your ideas into reality. Contact us today and let\'s get started on something amazing together!'	
+    niceToMeetYouText: 'Thanks for visiting us. We are here to help you transform your ideas into reality. Contact us today and let\'s get started on something amazing together!',
+    
+    callToActionText: 'Book a meeting with us to start working in your next new project.',
+    footerSocialMedia: 'Social Networks',
+    footerNavigation: 'Navigation',
   }
 }
