@@ -23,7 +23,7 @@ export const Navbar = () => {
           UFO
         </a>
 
-        <nav>
+        <nav className="max-xl:hidden">
           <ul className="flex gap-12 items-center">
             <a href="#mainHookContainer" className="hover:text-ufopink font-medium transition-colors">
               <Translate>navbarItemHome</Translate>

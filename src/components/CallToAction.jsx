@@ -4,7 +4,7 @@ import { Translate } from "./Translate";
 export const CallToAction = () => {
   return (
     <div className="py-16 bg-gradient-to-r from-ufopink/10 to-ufopink/5">
-      <div className="margins flex items-end gap-8 justify-between">
+      <div className="margins items-end max-lg:items-start flex gap-8 justify-between max-lg:flex-col">
         <p className="text-background-gradient text-4xl font-bold max-w-2xl">
           <Translate>callToActionText</Translate>
         </p>

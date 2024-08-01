@@ -3,12 +3,12 @@ import { Translate } from "./Translate"
 export const Footer = () => {
   return (
     <footer className="flex flex-col margins">
-      <div className="border-[0.5px] border-opacity-40 border-l-0 border-r-0 border-t-ufopink border-b-ufopink py-10 flex justify-between">
+      <div className="border-[0.5px] border-opacity-40 border-l-0 border-r-0 border-t-ufopink border-b-ufopink py-10 flex justify-between max-md:flex-col max-md:gap-12">
         <div>
           <img src="/navbar.png" className="w-80 h-24 object-cover mb-6" />
           <p className="max-w-lg text-balance text-white text-opacity-70">Empresa de desarrollo de software que se dedica a crear soluciones innovadoras para mejorar la experiencia de los usuarios.</p>
         </div>
-        <div className="flex gap-16">
+        <div className="flex gap-16 max-md:flex-col">
           <div className="flex flex-col gap-2">
             <h4 className="text-ufopink text-opacity-90 font-medium">
               <Translate>footerInformation</Translate>

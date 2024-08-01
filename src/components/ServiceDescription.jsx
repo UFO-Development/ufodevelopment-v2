@@ -16,7 +16,7 @@ export const ServiceStage = ({ icon, title, description }) => {
       <div className="p-4 bg-ufopink w-fit rounded-xl bg-opacity-20">
         {icon}
       </div>
-      <h3 className="text-xl font-medium">
+      <h3 className="text-xl font-medium text-center">
         <Translate>{title}</Translate>
       </h3>
       <p className="opacity-85 text-center">
@@ -36,7 +36,7 @@ export const ServiceDescription = () => {
         <Translate>serviceDescriptionText</Translate>
       </p>
 
-      <div className="margins grid grid-cols-3 grid-rows-2 w-full pt-24 gap-24">
+      <div className="margins grid grid-cols-3 grid-rows-2 w-full pt-24 gap-24 max-lg:grid-cols-2 max-md:grid-cols-1">
         {serviceStages.map(serviceStage => (
           <ServiceStage 
             key={serviceStage.title} 

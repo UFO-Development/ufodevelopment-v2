@@ -10,8 +10,8 @@ export const Contact = () => {
         <Translate>contactDescriptionText</Translate>
       </p>
 
-      <div className="margins grid grid-cols-2 w-full py-24">
-        <aside className="flex flex-col gap-4 sticky top-32 h-fit">
+      <div className="margins grid grid-cols-2 max-lg:grid-cols-1 max-lg:gap-12 w-full py-24">
+        <aside className="flex flex-col gap-4 min-[1024px]:sticky top-32 h-fit">
           <span className="badge-pink">
             <Translate>founderAgency</Translate>
           </span>

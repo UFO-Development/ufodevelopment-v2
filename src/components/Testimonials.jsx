@@ -23,7 +23,7 @@ export const Testimonials = () => {
         <Translate>testimonialsDescriptionText</Translate>
       </p>
       
-      <div className="margins grid grid-cols-2 w-full pt-24 gap-8">
+      <div className="margins grid grid-cols-2 w-full pt-24 gap-8 max-md:grid-cols-1">
         {testimonials.map(testimonial => ( 
           <Testimonial key={testimonial.name} testimonial={testimonial} />
         ))}
