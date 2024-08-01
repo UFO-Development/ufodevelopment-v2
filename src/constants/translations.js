@@ -53,6 +53,10 @@ export default {
     contactPlaceholderPhone: 'Ingresá tu número de teléfono',
     contactPlaceholderMessage: 'Ingresá tu mensaje',
     contactButton: 'Enviar',
+    contactError: 'Por favor completa todos los campos',
+    contactCatchedError: 'Algo salió mal, por favor inténtalo de nuevo',
+    contactSuccess: 'Gracias por tu mensaje, te responderemos lo antes posible.',
+
     founderAgency: 'ENZO CAZENAVE',
     niceToMeetYou: 'Un gusto en conocerte!',
     niceToMeetYouText: 'Gracias por visitarnos. Estamos aquí para ayudarte a transformar tus ideas en realidad. Contáctanos hoy y comencemos a crear algo increíble juntos!',
@@ -119,6 +123,9 @@ export default {
     contactPlaceholderPhone: 'Enter your phone number',
     contactPlaceholderMessage: 'Enter your message',
     contactButton: 'Send',
+    contactError: 'Please fill in all fields',
+    contactCatchedError: 'Something went wrong, please try again',
+    contactSuccess: 'Thanks for your message, we will get back to you as soon as possible.',
 
     founderAgency: 'ENZO CAZENAVE',
     niceToMeetYou: 'Nice to meet you!',
