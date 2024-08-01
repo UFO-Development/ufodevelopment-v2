@@ -54,7 +54,7 @@ export const Footer = () => {
 
       <div className="flex justify-between py-8">
         <p>&copy; Copyright</p>
-        <p>2024 - All rights reserved</p>
+        <p>2024 - <Translate>footerCopyright</Translate></p>
       </div>
     </footer>
   )
