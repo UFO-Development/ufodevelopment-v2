@@ -11,12 +11,12 @@ export const Contact = () => {
       </p>
 
       <div className="margins grid grid-cols-2 max-lg:grid-cols-1 max-lg:gap-12 w-full py-24">
-        <aside className="flex flex-col gap-4 min-[1024px]:sticky top-32 h-fit">
+        <aside className="flex flex-col gap-4 lg:sticky top-32 h-fit">
           <span className="badge-pink">
             <Translate>founderAgency</Translate>
           </span>
 
-          <h2 className="text-5xl font-bold text-left text-pretty text-background-gradient h-14">
+          <h2 className="text-5xl font-bold text-left text-pretty text-background-gradient py-2">
             <Translate>niceToMeetYou</Translate>
           </h2>
 

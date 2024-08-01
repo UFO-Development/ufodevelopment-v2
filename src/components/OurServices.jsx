@@ -16,7 +16,7 @@ export const OurServices = () => {
       <p className="text-center pt-3 text-balance max-w-xl mx-auto">
         <Translate>ourServicesDescriptionText</Translate>
       </p>
-      <div className="margins grid grid-cols-2 w-full pt-24 gap-8">
+      <div className="margins grid grid-cols-2 w-full pt-24 gap-8 max-sm:grid-cols-1">
         {services.map(service => <Service key={service.name} service={service} />)}
       </div>
     </div>
@@ -25,7 +25,7 @@ export const OurServices = () => {
 
 const Service = ({ service }) => {
   return (
-    <div className={`relative overflow-hidden flex flex-col gap-3 p-6 bg-ufopink bg-opacity-5 rounded-xl border border-ufopink border-opacity-15 hover:border-opacity-40 transition-colors  ${ service.span === 1 ? '' : 'col-span-2'}`}>
+    <div className={`relative overflow-hidden flex flex-col gap-3 p-6 bg-ufopink bg-opacity-5 rounded-xl border border-ufopink border-opacity-15 hover:border-opacity-40 transition-colors  ${ service.span === 1 ? '' : 'col-span-2 max-sm:col-span-1'}`}>
       { service.icon }
       <div className="p-2 bg-ufopink w-fit rounded-xl bg-opacity-20 pointer-events-none">
         <div className="text-ufopink size-6 flex items-center justify-center">
