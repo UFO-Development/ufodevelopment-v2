@@ -1312,8 +1312,16 @@ html {
     grid-column: span 1 / span 1;
   }
 
+  .max-sm\:max-w-full {
+    max-width: 100%;
+  }
+
   .max-sm\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .max-sm\:items-start {
+    align-items: flex-start;
   }
 
   .max-sm\:items-center {
@@ -1322,6 +1330,44 @@ html {
 
   .max-sm\:text-center {
     text-align: center;
+  }
+
+  .max-sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .max-sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .max-sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .max-\[320px\]\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .max-\[320px\]\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .max-\[320px\]\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:text-pretty {
+    text-wrap: pretty;
   }
 }
 

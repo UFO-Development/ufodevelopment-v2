@@ -10,7 +10,7 @@ const services = [
 export const OurServices = () => {
   return (
     <div className="py-24" id="ourServicesContainer">
-      <h2 className="text-5xl font-bold text-center text-background-gradient">
+      <h2 className="text-5xl font-bold text-center text-background-gradient max-sm:text-4xl">
         <Translate>ourServicesDescriptionTitle</Translate>
       </h2>
       <p className="text-center pt-3 text-balance max-w-xl mx-auto">
