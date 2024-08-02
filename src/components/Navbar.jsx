@@ -23,23 +23,33 @@ export const Navbar = () => {
           UFO
         </a>
 
-        <nav className="max-xl:hidden">
+        <nav className="max-lg:hidden">
           <ul className="flex gap-12 items-center">
-            <a href="#mainHookContainer" className="hover:text-ufopink font-medium transition-colors">
-              <Translate>navbarItemHome</Translate>
-            </a>
-            <a href="#ourServicesContainer" className="hover:text-ufopink font-medium transition-colors">
-              <Translate>navbarItemServices</Translate>
-            </a>
-            <a href="#serviceDescriptionContainer" className="hover:text-ufopink font-medium transition-colors">
-              <Translate>navbarItemWork</Translate>
-            </a>
-            <a href="#testmonialsContainer" className="hover:text-ufopink font-medium transition-colors">
-              <Translate>navbarItemTestimonials</Translate>
-            </a>
-            <a href="#contactContainer" className="py-2 px-8 border-2 border-ufopink text-ufopink font-medium hover-fill-button rounded-full">
-              <Translate>navbarItemContact</Translate>
-            </a>
+            <li>
+              <a href="#mainHookContainer" className="hover:text-ufopink font-medium transition-colors">
+                <Translate>navbarItemHome</Translate>
+              </a>
+            </li>
+            <li>
+              <a href="#ourServicesContainer" className="hover:text-ufopink font-medium transition-colors">
+                <Translate>navbarItemServices</Translate>
+              </a>
+            </li>
+            <li>
+              <a href="#serviceDescriptionContainer" className="hover:text-ufopink font-medium transition-colors">
+                <Translate>navbarItemWork</Translate>
+              </a>
+            </li>
+            <li>
+              <a href="#testmonialsContainer" className="hover:text-ufopink font-medium transition-colors">
+                <Translate>navbarItemTestimonials</Translate>
+              </a>
+            </li>
+            <li>
+              <a href="#contactContainer" className="py-2 px-8 border-2 border-ufopink text-ufopink font-medium hover-fill-button rounded-full">
+                <Translate>navbarItemContact</Translate>
+              </a>
+            </li>
           </ul>
         </nav>
 
