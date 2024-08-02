@@ -14,10 +14,10 @@ export const MainHookSection = () => {
         <p className="opacity-80 text-lg text-pretty max-w-xl max-sm:text-center">
           <Translate>mainHookParagraph</Translate>
         </p>
-        <button className="w-fit bg-ufopink px-4 py-2 rounded text-black font-medium hover:opacity-90 transition-opacity flex items-center gap-4">
+        <a target="_blank" href="https://calendly.com/corporate-ufodevelopment/30min" className="w-fit bg-ufopink px-4 py-2 rounded text-black font-medium hover:opacity-90 transition-opacity flex items-center gap-4">
           <Translate>mainHookButton</Translate>
           <CalendarCheck />
-        </button>
+        </a>
       </div>
     </div>
   )

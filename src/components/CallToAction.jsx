@@ -8,10 +8,10 @@ export const CallToAction = () => {
         <p className="text-background-gradient text-4xl font-bold max-w-2xl py-1">
           <Translate>callToActionText</Translate>
         </p>
-        <button className="w-fit bg-ufopink px-4 py-2 rounded text-black font-medium hover:opacity-90 transition-opacity flex items-center gap-4 h-fit">
+        <a target="_blank" href="https://calendly.com/corporate-ufodevelopment/30min" className="w-fit bg-ufopink px-4 py-2 rounded text-black font-medium hover:opacity-90 transition-opacity flex items-center gap-4 h-fit">
           <Translate>mainHookButton</Translate>
           <CalendarCheck />
-        </button>
+        </a>
       </div>
     </div>
   );
