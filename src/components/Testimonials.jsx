@@ -11,13 +11,13 @@ const testimonials = [
 export const Testimonials = () => {
   return (
     <div className="py-24" id="testmonialsContainer">
-      <h3 className="badge-pink text-center mx-auto mb-4 text-xs">
+      <h2 className="badge-pink text-center mx-auto mb-4 text-xs">
         <Translate>testimonialsBadge</Translate>
-      </h3>
-      
-      <h2 className="text-5xl font-bold text-center text-background-gradient">
-        <Translate>testimonialsDescriptionTitle</Translate>
       </h2>
+      
+      <h3 className="text-5xl font-bold text-center text-background-gradient">
+        <Translate>testimonialsDescriptionTitle</Translate>
+      </h3>
 
       <p className="text-center pt-3 text-balance max-w-xl mx-auto">
         <Translate>testimonialsDescriptionText</Translate>

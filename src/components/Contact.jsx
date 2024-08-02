@@ -59,9 +59,9 @@ export const Contact = () => {
             <Translate>founderAgency</Translate>
           </span>
 
-          <h2 className="text-5xl font-bold text-left text-pretty text-background-gradient py-2">
+          <h3 className="text-5xl font-bold text-left text-pretty text-background-gradient py-2">
             <Translate>niceToMeetYou</Translate>
-          </h2>
+          </h3>
 
           <p className="max-w-xl text-balance">
             <Translate>niceToMeetYouText</Translate>

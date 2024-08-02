@@ -2,7 +2,7 @@ import { Translate } from "./Translate"
 import { ApiApp, FourBoxes } from "./icons"
 
 const services = [
-  { name: 'service1Name', description: 'service1Description', span: 1, number: '01', icon: <img src="/bg.svg" className="w-full h-full absolute opacity-15 -right-[100px]" /> },
+  { name: 'service1Name', description: 'service1Description', span: 1, number: '01', icon: <img alt="background" src="/bg.svg" className="w-full h-full absolute opacity-15 -right-[100px]" /> },
   { name: 'service2Name', description: 'service2Description', span: 1, number: '02', icon: <ApiApp  width={128} height={128} strokeWidth={0.5} color="#ff66c4" className="absolute -bottom-8 -right-8 opacity-15" /> },
   { name: 'service3Name', description: 'service3Description', span: 2, number: '03', icon: <FourBoxes className="size-24 stroke-ufopink/20 absolute -right-5 -bottom-5" />},
 ]

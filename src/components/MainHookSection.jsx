@@ -8,9 +8,9 @@ export const MainHookSection = () => {
         <span className="badge-pink">
           <Translate>mainHookAgency</Translate>
         </span>
-        <h2 className="text-6xl font-bold text-left sm:text-pretty max-w-[700px] text-background-gradient max-sm:text-4xl max-[320px]:text-xl">
+        <h1 className="text-6xl font-bold text-left sm:text-pretty max-w-[700px] text-background-gradient max-sm:text-4xl max-[320px]:text-xl">
           <Translate>mainHookTitle</Translate>
-        </h2>
+        </h1>
         <p className="opacity-80 text-lg text-pretty max-w-xl max-sm:text-sm max-[320px]:text-xs">
           <Translate>mainHookParagraph</Translate>
         </p>
