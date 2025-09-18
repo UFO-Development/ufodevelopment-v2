@@ -31,6 +31,7 @@ export default {
     testimonialsDescriptionText: 'Hemos trabajado con muchos clientes y hemos recibido muchos comentarios positivos.',
     testimonialDescriptionFrancoBenito: 'Quería darles las gracias por el espectacular trabajo que realizaron. Tomaron un proyecto donde los detalles y el tiempo eran cruciales y lograron superar las expecativas. Cumpliendo con todos los objetivos con celeridad y eficacia.',
     testimonialDescriptionRocamixHormigones: 'Gran agradecimiento al equipo por el trabajo realizado. Excelente interpretación de mis ideas que se ven reflejadas por completo en el diseño del sitio, gran atención en todo momento como también asesoramiento. Destaco la amabilidad y predisposición para con el cliente! Trabajo finalizado en tiempo y forma!',
+    testimonialDescriptionElectroDm: 'El sistema es moderno, ágil y se adapta perfectamente a nuestras necesidades. El soporte técnico siempre responde con rapidez y eficacia ante cualquier inconveniente.',
   
     ourServicesDescriptionTitle: 'Nuestros servicios',
     ourServicesDescriptionText: 'A que nos dedicamos.',
@@ -99,6 +100,7 @@ export default {
     testimonialsDescriptionText: 'We have worked with many clients, and we have received many positive feedback.',
     testimonialDescriptionFrancoBenito: "I wanted to thank you for the spectacular work you did. You took on a project where details and time were crucial and managed to exceed expectations, meeting all objectives with speed and efficiency.",
     testimonialDescriptionRocamixHormigones: "Great thanks to the team for the work done. Excellent interpretation of my ideas, which are fully reflected in the site design, great attention at all times as well as advice. I highlight the kindness and readiness towards the client! Work completed on time and in shape!",
+    testimonialDescriptionElectroDm: 'The system is modern, agile, and perfectly adapts to our needs. The technical support always responds quickly and efficiently to any issues.',
     
     ourServicesDescriptionTitle: 'Our services',
     ourServicesDescriptionText: 'What do we do.',
