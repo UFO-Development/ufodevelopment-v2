@@ -32,7 +32,8 @@ export default {
     testimonialDescriptionFrancoBenito: 'Quería darles las gracias por el espectacular trabajo que realizaron. Tomaron un proyecto donde los detalles y el tiempo eran cruciales y lograron superar las expecativas. Cumpliendo con todos los objetivos con celeridad y eficacia.',
     testimonialDescriptionRocamixHormigones: 'Gran agradecimiento al equipo por el trabajo realizado. Excelente interpretación de mis ideas que se ven reflejadas por completo en el diseño del sitio, gran atención en todo momento como también asesoramiento. Destaco la amabilidad y predisposición para con el cliente! Trabajo finalizado en tiempo y forma!',
     testimonialDescriptionElectroDm: 'El sistema es moderno, ágil y se adapta perfectamente a nuestras necesidades. El soporte técnico siempre responde con rapidez y eficacia ante cualquier inconveniente.',
-  
+    testimonialDescriptionMarmoles: 'Queremos agradecer al equipo por el compromiso y la dedicación en el desarrollo de nuestra página web. Interpretaron exactamente lo que necesitábamos y transformaron nuestras ideas en una plataforma moderna, ágil y funcional. Cumplieron con los tiempos y siempre estuvieron disponibles para cada ajuste. Gracias por el gran trabajo, sin dudas, volveríamos a elegirnos.',
+
     ourServicesDescriptionTitle: 'Nuestros servicios',
     ourServicesDescriptionText: 'A que nos dedicamos.',
     service1Name: 'Desarrollo de sistemas personalizados',
@@ -101,7 +102,8 @@ export default {
     testimonialDescriptionFrancoBenito: "I wanted to thank you for the spectacular work you did. You took on a project where details and time were crucial and managed to exceed expectations, meeting all objectives with speed and efficiency.",
     testimonialDescriptionRocamixHormigones: "Great thanks to the team for the work done. Excellent interpretation of my ideas, which are fully reflected in the site design, great attention at all times as well as advice. I highlight the kindness and readiness towards the client! Work completed on time and in shape!",
     testimonialDescriptionElectroDm: 'The system is modern, agile, and perfectly adapts to our needs. The technical support always responds quickly and efficiently to any issues.',
-    
+    testimonialDescriptionMarmoles: 'We want to thank the team for their commitment and dedication in developing our website. They understood exactly what we needed and transformed our ideas into a modern, agile, and functional platform. They met deadlines and were always available for every adjustment. Thank you for the great work; we would definitely choose them again.',
+
     ourServicesDescriptionTitle: 'Our services',
     ourServicesDescriptionText: 'What do we do.',
 

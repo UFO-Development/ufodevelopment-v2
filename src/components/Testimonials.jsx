@@ -2,7 +2,8 @@ import { useRef } from "react";
 import { DoubleQuote, Star } from "./icons";
 import { Translate } from "./Translate";
 import { useEffect } from "react";
-import { Instagram } from "./icons/Instagram";
+import { Instagram } from "./icons/Instagram"
+import { Url } from "./icons/Url";;
 
 const testimonials = [
   {
@@ -15,6 +16,7 @@ const testimonials = [
     description: "testimonialDescriptionRocamixHormigones",
     span: 1,
     instagram: "https://www.instagram.com/rocamixhormigones",
+    url: "https://rocamix.com.ar"
   },
   {
     name: "Electro DM",
@@ -22,6 +24,13 @@ const testimonials = [
     span: 1,
     instagram: "https://www.instagram.com/electroodm",
   },
+  {
+    name: 'Mármoles Milán',
+    description: "testimonialDescriptionMarmoles",
+    span: 1,
+    instagram: "https://www.instagram.com/marmolesmilan",
+    url: "https://marmolesmilan.com.ar"
+  }
 ];
 
 export const Testimonials = () => {
@@ -109,19 +118,34 @@ const Testimonial = ({ testimonial }) => {
         <div className="p-2 bg-ufopink w-fit rounded-xl bg-opacity-20 pointer-events-none">
           <DoubleQuote width={24} height={24} color="#ff66c4" />
         </div>
-        {testimonial.instagram && (
-          <a
-            className="p-2 bg-ufopink w-fit rounded-xl bg-opacity-20 cursor-pointer pointer-events-auto"
-            href={testimonial.instagram}
-            target="_blank"
-          >
-            <Instagram 
-              width={24} 
-              height={24} 
-              color="#ff66c4" 
-            />
-          </a>
-        )}
+        <div className="flex gap-6">
+          {testimonial.url && (
+            <a
+              className="p-2 bg-ufopink w-fit rounded-xl bg-opacity-20 cursor-pointer pointer-events-auto"
+              href={testimonial.url}
+              target="_blank"
+            >
+              <Url 
+                width={24}
+                height={24}
+                color="#ff66c4" 
+              />
+            </a>
+          )}
+          {testimonial.instagram && (
+            <a
+              className="p-2 bg-ufopink w-fit rounded-xl bg-opacity-20 cursor-pointer pointer-events-auto"
+              href={testimonial.instagram}
+              target="_blank"
+            >
+              <Instagram 
+                width={24} 
+                height={24} 
+                color="#ff66c4" 
+              />
+            </a>
+          )}
+        </div>
       </div>
       <h3 className="text-2xl font-medium pointer-events-none">
         {testimonial.name}
